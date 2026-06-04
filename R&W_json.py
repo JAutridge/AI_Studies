@@ -21,6 +21,7 @@ with open('R&W_name.json', "r") as file:
 with open("R&W_name2.json", "w") as file:
         json.dump(person, file, indent=4)
 
+
 #Converts dict to json format
-data = json.dumps(person2, indent=4)
-print(2., data)
+data2 = json.dumps(person2, indent=4)
+print(2., data2)
