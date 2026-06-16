@@ -7,5 +7,4 @@ data = {
 }
 
 
-df = pd.Dataframe(data)
 
