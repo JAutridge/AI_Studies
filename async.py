@@ -33,7 +33,7 @@ async def main():
     await d2  # Wait for Birds to finish (already done by this point)
     await d3  # Wait for Cats to finish
 
-
+    asyncio.gather()
 # --- RUNNING THE ASYNC PROGRAM ---
 # asyncio.run() starts the event loop and runs the main() coroutine
 # You can only call asyncio.run() once — it manages everything

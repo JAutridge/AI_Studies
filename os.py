@@ -1,7 +1,5 @@
 import os
 
-import os
-
 #show all module functions
 print(dir(os))
 
